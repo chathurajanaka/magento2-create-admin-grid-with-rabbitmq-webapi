@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="CL_Grid::add_row" title="Custom Catalog" module="CL_Grid" sortOrder="10" action="grid/grid" resource="CL_Grid::add_row" parent="Magento_Catalog::catalog_products"/>
+    </menu>
+</config>

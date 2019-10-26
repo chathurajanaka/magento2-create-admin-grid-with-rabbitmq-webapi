@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/topology.xsd">
+<exchange name="cl.products" type="topic" connection="amqp">
+    <binding id="customCatalogPush" topic="customcatalog.push" destinationType="queue" destination="customcatalog_push"/>
+</exchange>
+</config>

@@ -1,0 +1,21 @@
+{
+    "name": "cl/magento2-create-admin-grid-with-rabbitmq-webapi",
+    "description": "Magento 2 module that creates a admin grid with rabbitmq Integration, Web API integration",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0|7.1.*|7.2.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CL\\Grid\\": ""
+        }
+    }
+}
